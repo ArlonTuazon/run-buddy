@@ -18,15 +18,16 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
   header a{
       text-decoration: none;
       color: #fce138;
   }
   header nav {
-      float: right;
+      display: flex;
       margin: 7px 0;
+      justify-content: space space-between;
+      flex-wrap: wrap;
   }
   header nav ul li {
       display: inline;
