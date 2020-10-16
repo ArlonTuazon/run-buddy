@@ -140,7 +140,7 @@ header {
     color: #024e76;
     width: 100%;
     margin-bottom: 15px;
-    border-radius: 10px
+    border-radius: 10px;
     background-color: rgba(255,255,255, 0.75);
   }
   /* create a new rule for focus state */
@@ -163,9 +163,7 @@ header {
     background-color: #39a6b2;  
   }
     /* Hero Style End */
-  .intro {
-    
-  }
+ 
   /* remove this entire CSS rule */
 
   .intro p {
@@ -200,13 +198,7 @@ header {
   .secondary-border {
     border-color: #39a6b2;
   }
-  .steps div {
-   
-  }
   
-  .steps img {
-    
-  } 
   .step {
     margin: 50px auto;
     padding-bottom: 50px;
@@ -248,9 +240,7 @@ header {
     color: #024e76;
   }
   
-  .steps span {
-    
-  }
+  
   .trainers {
     width: 100%;
     margin: 0 auto;
