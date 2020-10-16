@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -596,7 +596,11 @@ header {
 
   .contact-info {
     text-align: center;
-  }
+  }:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
 
   .contact-info > * {
     flex: 0 100%; 
@@ -604,9 +608,4 @@ header {
   .contact-form {
     order: 3;
   }
-}
-:root {
-  --primary-color: #fce138;
-  --secondary-color: #024e76;
-  --tertiary-color: #39a6b2;
 }
